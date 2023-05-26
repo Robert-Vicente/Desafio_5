@@ -1,0 +1,21 @@
+<div>
+  {{#each allProducts}}
+    <div>
+      <h1>{{this.title}}</h1>
+      <h3>{{this.price}}</h3>
+    </div>
+  {{/each}}
+
+</div>
+
+{{!-- <h1>Hola {{user.nombre}}! Qué gusto verte!</h1>
+  {{#if isAdmin}}
+    {{#each food}}
+      <div>
+        <p>{{this.name}}</p>
+        <p>{{this.price}}</p>
+      </div>
+    {{/each}}
+    {{else}}
+    <p>No tienes permisos para ver la lista de comida.</p>
+  {{/if}} --}}
